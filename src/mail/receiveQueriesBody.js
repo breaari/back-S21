@@ -28,3 +28,4 @@ const receiveQueriesBody = async (type, program, equivalency, modality, name, la
 };
 
 module.exports = receiveQueriesBody;
+

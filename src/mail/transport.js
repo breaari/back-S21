@@ -13,30 +13,4 @@ const transport = nodemailer.createTransport({
     }
   });
 
-  const sendEmail = async (emailOptions, queryOptions) => {
-    try {
-      const info = await transport.sendMail(emailOptions);
-      const query = await transport.sendMail(queryOptions);
-      return "email enviado con exito"
-    } catch (error) {
-      console.error('Error al enviar correo electrónico:', error);
-    }
-  }
-   // transport.sendMail(emailOptions, function (err, data) {
-    //   if (err) {
-    //     console.log("Error al enviar correo de información:", err);
-    //   } else {
-    //     console.log("Correo de información enviado con éxito");
-    //   }
-    // });
-
-    // // Enviar correo de consulta
-    // transport.sendMail(queryOptions, function (err, data) {
-    //   if (err) {
-    //     console.log("Error al enviar correo de consulta:", err);
-    //   } else {
-    //     console.log("Correo de consulta enviado con éxito");
-    //   }
-    // });
-
-  module.exports = { transport, sendEmail} 
+  module.exports = transport

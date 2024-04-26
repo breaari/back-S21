@@ -5,11 +5,10 @@ const jsonPath = path.join(__dirname, '../Carreras/carreras.json');
 
 const sendEmailBody = async (program, name, lastName) => {
   try {
-    // Lee el archivo JSON que contiene la información de las carreras
+
     const rawdata = fs.readFileSync(jsonPath);
     const carreras = JSON.parse(rawdata);
 
-    // Busca la carrera que coincide con el nombre recibido en 'program'
     const carrera = carreras.Carreras.find(c => c.name === program);
 
     if (!carrera) {
@@ -18,7 +17,6 @@ const sendEmailBody = async (program, name, lastName) => {
 
     const { url } = carrera;
 
-    // Genera el cuerpo del correo con la URL obtenida
     const body = `
     <body style="font-family: Arial, sans-serif; background-color: #f5f5f5; color: #333; padding: 20px;">
 
@@ -63,4 +61,3 @@ const sendEmailBody = async (program, name, lastName) => {
 };
 
 module.exports = sendEmailBody;
-

@@ -1,346 +1,371 @@
 {
-    "Carreras": [
-      {
-        "name": "Lic. en Administración",
-        "url": "#",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Ambiente y Energías Renovables",
-        "url": "#",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Ciencias de Datos",
-        "url": "#",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Terapia Ocupacional y Desarrollo Humano",
-        "url": "#",
-        "type": "grado"
-      },
-      {
-        "name":  "Lic. en Antropología Organizacional",
-        "url": "#",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Seguridad Informática",
-        "url": "#",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Ciencia Política y Gobierno",
-        "url": "#",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Administración de Servicios de Salud (CCC)",
-        "url": "#",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Finanzas",
-        "url": "#",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Bioinformática",
-        "url": "#",
-        "type": "grado"
-      },
-      {
-        "name": "Abogacía",
-        "url": "https://contenidos.21.edu.ar/descargas/art-43/brochure-abogacia.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Contador Público",
-        "url": "https://contenidos.21.edu.ar/descargas/art-43/brochure-contador_publico.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Escribanía",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/escribania.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Administración Agraria",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-administracion-agraria.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Administración de Infraestructura Tecnológica",
-        "url": "https://contenidos.21.edu.ar/descargas/carreras/nuevas-carreras/brochure-admin-de-infraestructura-tecnologica.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Administración Hotelera",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-administracion-hotelera.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Administración Pública",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-administracion-publica.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Comercialización (Marketing)",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-comercializacion.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Comercio Internacional",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-comercio-internacional.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Criminología y Seguridad",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-criminologia-y-seguridad.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Diseño y Animación Digital",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-diseno-y-animacion-digital.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Educación (CCC)",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-educacion.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Educación y Nuevas Tecnologías",
-        "url": "https://contenidos.21.edu.ar/descargas/carreras/nuevas-carreras/brochure-lic.en-educacion-y-nuevas-tecnologias.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Emprendimiento (CCC)",
-        "url": "https://contenidos.21.edu.ar/descargas/carreras/nuevas-carreras/brochure-emprendimiento.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Gerontología",
-        "url": "https://contenidos.21.edu.ar/descargas/carreras/nuevas-carreras/brochure-gerontologia.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Gestión Ambiental",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-gestion-ambiental.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Gestión de Recursos Humanos",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-gestion-rrhh.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Gestión Turística",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-gestion-turistica.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Higiene, Seguridad y Medio Ambiente del Trabajo",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-higiene-y-seguridad.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Informática",
-        "url": "https://contenidos.21.edu.ar/descargas/art-43/brochure-informatica.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Inteligencia Artificial y Robótica",
-        "url": "https://contenidos.21.edu.ar/descargas/carreras/nuevas-carreras/brochure-inteligencia-artificial-y-robotica-.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Matemática",
-        "url": "https://contenidos.21.edu.ar/descargas/carreras/nuevas-carreras/brochure-matematica.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Logística Global",
-        "url": "https://drive.google.com/file/d/1Mmahc8Dqjeg3PCKNJowmCKFo-Y2gRpeM/view",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Periodismo",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-periodismo.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Publicidad",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-publicidad.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Relaciones Internacionales",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-relaciones-internacionales.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Relaciones Públicas e Institucionales",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-relaciones-publicas.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Lic. en Seguridad Informática",
-        "url": "https://contenidos.21.edu.ar/descargas/carreras/nuevas-carreras/brochure-seguridad-informatica.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Maestría en Administración de Empresas",
-        "url": "#",
-        "type": "maestría"
-      },
-      {
-        "name": "Maestría en Derecho Internacional",
-        "url": "#",
-        "type": "maestría"
-      },
-      {
-        "name": "Maestría en Innovación Educativa",
-        "url": "#",
-        "type": "maestría"
-      },
-      {
-        "name": "Maestría en Adm. de Neg. y Ap. Tec. en la Empresa",
-        "url": "#",
-        "type": "maestría"
-      },
-      {
-        "name": "Maestría en Derecho Procesal",
-        "url": "#",
-        "type": "maestría"
-      },
-      {
-        "name": "Actuario",
-        "url": "https://contenidos.21.edu.ar/descargas/carreras/nuevas-carreras/brochure-actuario.pdf",
-        "type": "grado"
-      },
-      {
-        "name": "Martillero, Corredor Público y Corredor Inmobiliario",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/martillero-y-corredor-publico-e-inmobiliario.pdf",
-        "type": "pregrado"
-      },
-      {
-        "name": "Procurador",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/procurador.pdf",
-        "type": "pregrado"
-      },
-      {
-        "name": "Tec. en Administración y Gestión Tributaria",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/tec-administracion-y-gestion-tributaria.pdf",
-        "type": "pregrado"
-      },
-      {
-        "name": "Tec. en Dir. de Protocolo, Org. de Eventos y RRPP",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/tec-direccion-de-protocolo-org-de-eventos-y-rrpp.pdf",
-        "type": "pregrado"
-      },
-      {
-        "name": "Tec. en Dirección equipos de venta",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/tec-direccion-de-equipos-de-venta.pdf",
-        "type": "pregrado"
-      },
-      {
-        "name": "Tec. en Diseño y Animación Digital",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/tec-diseno-y-animacion-digital.pdf",
-        "type": "pregrado"
-      },
-      {
-        "name": "Tec. en Gestión de Empresas Familiares",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/tec-gestion-de-empresas-familiares.pdf",
-        "type": "pregrado"
-      },
-      {
-        "name": "Tec. en Gestión de Moda",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/tec-gestion-de-moda.pdf",
-        "type": "pregrado"
-      },
-      {
-        "name": "Tec. En Hidrocarburos Y Geociencia",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/tec-universitaria-en-hidrocarburos-y-geociencia.pdf",
-        "type": "pregrado"
-      },
-      {
-        "name": "Tec. en Higiene y Seguridad Laboral",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/tec-higiene-y-seguridad-laboral.pdf",
-        "type": "pregrado"
-      },
-      {
-        "name": "Tec. en Relaciones Laborales",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/tec-relaciones-laborales.pdf",
-        "type": "pregrado"
-      },
-      {
-        "name": "Tec. en Responsabilidad y Gestión Social",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/tec-responsabilidad-y-gestion-social.pdf",
-        "type": "pregrado"
-      },
-      {
-        "name": "Tec. en Administración y Gestión de Políticas Públicas",
-        "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/tec-administracion-publica.pdf",
-        "type": "pregrado"
-      },
-      {
-        "name": "Tec. en Investigación de la Escena del Crimen",
-        "url": "#",
-        "type": "pregrado"
-      },
-      {
-        "name": "Tec. en Marketing y Publicidad Digital",
-        "url": "#",
-        "type": "pregrado"
-      },
-      {
-        "name": "Tec. en Gestión de Recursos Turísticos",
-        "url": "#",
-        "type": "pregrado"
-      },
-      {
-        "name": "Tec. en Gestión y Auditorías Ambientales",
-        "url": "#",
-        "type": "pregrado"
-      },
-      {
-        "name": "Tec. en Gestión Contable e Impositiva",
-        "url": "#",
-        "type": "pregrado"
-      },
-      {
-        "name": "Tec. en Gestión del Clima Laboral en la Organización",
-        "url": "#",
-        "type": "pregrado"
-      },
-      {
-        "name": "Tec. en Promoción Comunitaria en Niñez y Adolesc.",
-        "url": "#",
-        "type": "pregrado"
-      },
-      {
-        "name": "Tec. en Gestión Administrativa de Servicios de Salud",
-        "url": "#",
-        "type": "pregrado"
-      },
-      {
-        "name": "Tec. en Redes Informáticas y Telecomunicaciones",
-        "url": "#",
-        "type": "pregrado"
-      },
-      {
-        "name": "Tec. en Adm. de la Prop. Horizontal y Conjuntos Inmob.",
-        "url": "#",
-        "type": "pregrado"
-      },
-      {
-        "name": "Tec. en Diseño y Desarrollo de Videojuegos",
-        "url": "#",
-        "type": "pregrado"
-      }
- 
-    ]
-  }
-  
+  "Carreras": [
+    {
+      "name": "Abogacía",
+      "url": "https://contenidos.21.edu.ar/descargas/art-43/brochure-abogacia.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Contador Público",
+      "url": "https://contenidos.21.edu.ar/descargas/art-43/brochure-contador_publico.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Escribanía",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/escribania.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Actuario",
+      "url": "https://contenidos.21.edu.ar/descargas/carreras/nuevas-carreras/brochure-actuario.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Administración",
+      "url": "#",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Ambiente y Energías Renovables",
+      "url": "#",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Ciencias de Datos",
+      "url": "#",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Terapia Ocupacional y Desarrollo Humano",
+      "url": "#",
+      "type": "grado"
+    },
+    {
+      "name":  "Lic. en Antropología Organizacional",
+      "url": "#",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Seguridad Informática",
+      "url": "https://contenidos.21.edu.ar/descargas/carreras/nuevas-carreras/brochure-seguridad-informatica.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Ciencia Política y Gobierno",
+      "url": "#",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Administración de Servicios de Salud (CCC)",
+      "url": "#",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Finanzas",
+      "url": "#",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Bioinformática",
+      "url": "#",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Administración Agraria",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-administracion-agraria.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Administración de Infraestructura Tecnológica",
+      "url": "https://contenidos.21.edu.ar/descargas/carreras/nuevas-carreras/brochure-admin-de-infraestructura-tecnologica.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Administración Hotelera",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-administracion-hotelera.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Administración Pública",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-administracion-publica.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Comercialización (Marketing)",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-comercializacion.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Comercio Internacional",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-comercio-internacional.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Criminología y Seguridad",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-criminologia-y-seguridad.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Diseño y Animación Digital",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-diseno-y-animacion-digital.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Educación (CCC)",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-educacion.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Educación y Nuevas Tecnologías",
+      "url": "https://contenidos.21.edu.ar/descargas/carreras/nuevas-carreras/brochure-lic.en-educacion-y-nuevas-tecnologias.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Emprendimiento (CCC)",
+      "url": "https://contenidos.21.edu.ar/descargas/carreras/nuevas-carreras/brochure-emprendimiento.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Gerontología",
+      "url": "https://contenidos.21.edu.ar/descargas/carreras/nuevas-carreras/brochure-gerontologia.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Gestión Ambiental",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-gestion-ambiental.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Gestión de Recursos Humanos",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-gestion-rrhh.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Gestión Turística",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-gestion-turistica.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Higiene, Seguridad y Medio Ambiente del Trabajo",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-higiene-y-seguridad.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Informática",
+      "url": "https://contenidos.21.edu.ar/descargas/art-43/brochure-informatica.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Inteligencia Artificial y Robótica",
+      "url": "https://contenidos.21.edu.ar/descargas/carreras/nuevas-carreras/brochure-inteligencia-artificial-y-robotica-.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Matemática",
+      "url": "https://contenidos.21.edu.ar/descargas/carreras/nuevas-carreras/brochure-matematica.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Logística Global",
+      "url": "https://drive.google.com/file/d/1Mmahc8Dqjeg3PCKNJowmCKFo-Y2gRpeM/view",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Periodismo",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-periodismo.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Publicidad",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-publicidad.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Relaciones Internacionales",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-relaciones-internacionales.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Lic. en Relaciones Públicas e Institucionales",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/grado/lic-relaciones-publicas.pdf",
+      "type": "grado"
+    },
+    {
+      "name": "Especialización en Cibercrimen",
+      "url": "https://contenidos.21.edu.ar/descargas/brochure/brochure-especializacion-en-cibercrimen-_-modalidad-blend.pdf",
+      "type": "posgrado"
+    },
+    {
+      "name": "Esp. en Derecho de Familia, Niñez y Adolescencia",
+      "url": "https://contenidos.21.edu.ar/descargas/brochures-negocios-y-posgrados/especializacion-en-derecho-de-familia-ninez-y-adolescencia.pdf",
+      "type": "posgrado"
+    },
+    {
+      "name": "Esp. en Finanzas Corporativas y Mercado de Capitales",
+      "url": "https://contenidos.21.edu.ar/descargas/brochure-especializacion-en-finanzas-corporativas-y-mercado-de-capitales.pdf",
+      "type": "posgrado"
+    },
+    {
+      "name": "Esp. en Gestión y Gobierno de Empresas Familiares",
+      "url": "https://contenidos.21.edu.ar/descargas/brochure/gestion-y-gobierno-de-empresas-familiares_1503.pdf",
+      "type": "posgrado"
+    },
+    {
+      "name": "Especialización en Marketing y Dirección Comercial",
+      "url": "https://contenidos.21.edu.ar/descargas/carreras/virtual/mkt_direccion_comercial_virtual.pdf",
+      "type": "posgrado"
+    },
+    {
+      "name": "Especialización en Negocios Internacionales",
+      "url": "https://contenidos.21.edu.ar/descargas/carreras/virtual/negocios-internacionales_virtual.pdf",
+      "type": "posgrado"
+    },
+    {
+      "name": "Maestría en Administración de Empresas",
+      "url": "https://contenidos.21.edu.ar/descargas/carreras/virtual/brochure-mba-virtual.pdf",
+      "type": "posgrado"
+    },
+    {
+      "name": "Maestría en Derecho Internacional",
+      "url": "https://contenidos.21.edu.ar/descargas/brochure/maestria-en-derecho-internacional-siglo-21.pdf",
+      "type": "posgrado"
+    },
+    {
+      "name": "Maestría en Innovación Educativa",
+      "url": "https://contenidos.21.edu.ar/descargas/brochure-maestria-en-innovacion-educativa-2.pdf",
+      "type": "posgrado"
+    },
+    {
+      "name": "Maestría en Adm. de Neg. y Ap. Tec. en la Empresa",
+      "url": "https://contenidos.21.edu.ar/descargas/brochure/maestria-en-administracion-de-negocios-y-aplicaciones-tecnologicas-en-la-empresa-siglo-21.pdf",
+      "type": "posgrado"
+    },
+    {
+      "name": "Maestría en Derecho Procesal",
+      "url": "https://contenidos.21.edu.ar/descargas/brochure/maestria-en-derecho-procesal-siglo-21.pdf",
+      "type": "posgrado"
+    },
+    {
+      "name": "Martillero, Corredor Público y Corredor Inmobiliario",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/martillero-y-corredor-publico-e-inmobiliario.pdf",
+      "type": "pregrado"
+    },
+    {
+      "name": "Procurador",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/procurador.pdf",
+      "type": "pregrado"
+    },
+    {
+      "name": "Tec. en Administración y Gestión Tributaria",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/tec-administracion-y-gestion-tributaria.pdf",
+      "type": "pregrado"
+    },
+    {
+      "name": "Tec. en Dir. de Protocolo, Org. de Eventos y RRPP",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/tec-direccion-de-protocolo-org-de-eventos-y-rrpp.pdf",
+      "type": "pregrado"
+    },
+    {
+      "name": "Tec. en Dirección equipos de venta",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/tec-direccion-de-equipos-de-venta.pdf",
+      "type": "pregrado"
+    },
+    {
+      "name": "Tec. en Diseño y Animación Digital",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/tec-diseno-y-animacion-digital.pdf",
+      "type": "pregrado"
+    },
+    {
+      "name": "Tec. en Gestión de Empresas Familiares",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/tec-gestion-de-empresas-familiares.pdf",
+      "type": "pregrado"
+    },
+    {
+      "name": "Tec. en Gestión de Moda",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/tec-gestion-de-moda.pdf",
+      "type": "pregrado"
+    },
+    {
+      "name": "Tec. En Hidrocarburos Y Geociencia",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/tec-universitaria-en-hidrocarburos-y-geociencia.pdf",
+      "type": "pregrado"
+    },
+    {
+      "name": "Tec. en Higiene y Seguridad Laboral",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/tec-higiene-y-seguridad-laboral.pdf",
+      "type": "pregrado"
+    },
+    {
+      "name": "Tec. en Relaciones Laborales",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/tec-relaciones-laborales.pdf",
+      "type": "pregrado"
+    },
+    {
+      "name": "Tec. en Responsabilidad y Gestión Social",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/tec-responsabilidad-y-gestion-social.pdf",
+      "type": "pregrado"
+    },
+    {
+      "name": "Tec. en Administración y Gestión de Políticas Públicas",
+      "url": "https://contenidos.21.edu.ar/pdf/carreras/pregrado/tec-administracion-publica.pdf",
+      "type": "pregrado"
+    },
+    {
+      "name": "Tec. en Investigación de la Escena del Crimen",
+      "url": "#",
+      "type": "pregrado"
+    },
+    {
+      "name": "Tec. en Marketing y Publicidad Digital",
+      "url": "#",
+      "type": "pregrado"
+    },
+    {
+      "name": "Tec. en Gestión de Recursos Turísticos",
+      "url": "#",
+      "type": "pregrado"
+    },
+    {
+      "name": "Tec. en Gestión y Auditorías Ambientales",
+      "url": "#",
+      "type": "pregrado"
+    },
+    {
+      "name": "Tec. en Gestión Contable e Impositiva",
+      "url": "#",
+      "type": "pregrado"
+    },
+    {
+      "name": "Tec. en Gestión del Clima Laboral en la Organización",
+      "url": "#",
+      "type": "pregrado"
+    },
+    {
+      "name": "Tec. en Promoción Comunitaria en Niñez y Adolesc.",
+      "url": "#",
+      "type": "pregrado"
+    },
+    {
+      "name": "Tec. en Gestión Administrativa de Servicios de Salud",
+      "url": "#",
+      "type": "pregrado"
+    },
+    {
+      "name": "Tec. en Redes Informáticas y Telecomunicaciones",
+      "url": "#",
+      "type": "pregrado"
+    },
+    {
+      "name": "Tec. en Adm. de la Prop. Horizontal y Conjuntos Inmob.",
+      "url": "#",
+      "type": "pregrado"
+    },
+    {
+      "name": "Tec. en Diseño y Desarrollo de Videojuegos",
+      "url": "#",
+      "type": "pregrado"
+    }
+
+  ]
+}
+
