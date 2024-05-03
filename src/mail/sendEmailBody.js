@@ -42,7 +42,8 @@ const sendEmailBody = async (program, name, lastName) => {
         <li><strong>La modalidad Educación Distribuida Home:</strong> es 100% online y está pensada para quienes quieren alcanzar un título y no cuentan con la posibilidad o prefieren no asistir a clases presenciales. Cuenta con innovaciones tecnológicas que permiten la comunicación constante y en tiempo real con compañeros y profesores virtuales en cada materia.</li>
     </ol>
     <p><strong>¡Gracias por tenernos en cuenta para continuar tu formación profesional!</strong></p>
-    <p>Cualquier duda puedes responder este correo o llamarnos al <a href="tel:+5492235512665">+54 9 223 551-2665</a>.</p>
+    <p>Cualquier duda puedes responder este correo o llamarnos al <a href='https://api.whatsapp.com/send?phone=5492235512665&text=Hola%21%20Quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%E2%80%A6'
+    target="_blank" rel="noopener noreferrer">+54 9 223 551-2665</a>.</p>
     <p>¡Espero tus consultas!</p>
 </body>
     
