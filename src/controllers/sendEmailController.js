@@ -17,6 +17,21 @@ const emailController = async (input) => {
     whatsapp,
     branch,
   } = input;
+
+  if (
+    type === undefined ||
+    program === undefined ||
+    equivalency === undefined ||
+    modality === undefined ||
+    email === undefined ||
+    name === undefined ||
+    lastName === undefined ||
+    whatsapp === undefined ||
+    branch === undefined
+  ) {
+    console.log("Alguno de los campos de entrada es undefined.");
+    return false; 
+  }
   
   try {
     // Enviar correo
