@@ -16,12 +16,11 @@ const emailController = async (input) => {
     lastName,
     whatsapp,
     branch,
-  } = input;
+  } =  await input;
 
   if (
     type === undefined ||
     program === undefined ||
-    equivalency === undefined ||
     modality === undefined ||
     email === undefined ||
     name === undefined ||
@@ -29,11 +28,12 @@ const emailController = async (input) => {
     whatsapp === undefined ||
     branch === undefined
   ) {
-    console.log("Alguno de los campos de entrada es undefined.");
-    return false; 
+    console.log("Alguno de los campos de entrada es undefined:", input);
+    return false;
   }
   
   try {
+
     // Enviar correo
     const body = await sendEmailBody(program, name, lastName);
     const emailOptions = {
@@ -43,7 +43,7 @@ const emailController = async (input) => {
       html: body,
 
     };
-
+  
     // Recibir consulta
     const queryBody = await receiveQueriesBody(type, program, equivalency, modality, name, lastName, whatsapp, branch);
     const queryOptions = {
@@ -54,8 +54,8 @@ const emailController = async (input) => {
   
     };
 
-    const info = transport.sendMail(emailOptions)
-    const info2= transport.sendMail(queryOptions)
+    const info =  transport.sendMail(emailOptions)
+    const info2=  transport.sendMail(queryOptions)
 
    if (info && info2)
 
@@ -67,3 +67,4 @@ const emailController = async (input) => {
 };
 
 module.exports = emailController;
+

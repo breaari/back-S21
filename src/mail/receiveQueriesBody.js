@@ -6,6 +6,7 @@ const jsonPath = path.join(__dirname, '../Carreras/carreras.json');
 
 const receiveQueriesBody = async (type, program, equivalency, modality, name, lastName, whatsapp, branch) => {
   try {
+    console.log("lastName:", lastName)
 
     const hasEquivalencies = equivalency ? 'sí' : 'no';
     
