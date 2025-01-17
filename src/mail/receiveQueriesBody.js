@@ -17,7 +17,7 @@ const receiveQueriesBody = async (type, program, equivalency, modality, name, la
       <p>Equivalencias: ${hasEquivalencies}</p>
       <p>Modalidad: ${modality}</p>
       <p>WhatsApp: ${whatsapp}</p>
-      <p>CAU de preferencia: ${branch}</p>
+      <p>Localidad: ${branch}</p>
       <h2>¡Saludos!</h2>
     `;
 
