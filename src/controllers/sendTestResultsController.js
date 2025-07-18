@@ -89,15 +89,6 @@ const sendTestResultsController = async (input) => {
 
     await transport.sendMail(mailOptions);
 
-    // await guardarEnGoogleSheet({
-    //   nombre,
-    //   apellido,
-    //   correo,
-    //   telefono: input.telefono,
-    //   localidad: input.localidad,
-    //   resultados,
-    // });
-    
     // 1. Ordenar de mayor a menor por porcentaje
 const resultadosOrdenados = [...resultados].sort((a, b) => b.porcentaje - a.porcentaje);
 
