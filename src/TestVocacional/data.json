@@ -1,0 +1,114 @@
+[
+  {
+    "dimension": "Dimensión Lingüística",
+    "numero": 1,
+    "texto_resultado": "Tus respuestas dieron un resultado del {{}}%, para emplear de manera eficaz las palabras y el lenguaje. Las personas que puntúan alto en esta dimensión disfrutan o tienen facilidad para redactar historias, leer, escribir o aprender idiomas. Demuestran inclinación para emplear adecuadamente el lenguaje, hablado o escrito, con algún propósito o fin útil.",
+    "carreras": [
+      "Abogacía",
+      "Escribanía",
+      "Licenciatura en Administración Pública"
+    ],
+    "preguntas": [
+      "Leer libros, revistas, novelas, ensayos, etc.",
+      "Escribir textos",
+      "Analizar e identificar las ideas principales de un texto",
+      "Entender un texto escrito"
+    ]
+  },
+  {
+    "dimension": "Dimensión Lógico-matemático",
+    "numero": 2,
+    "texto_resultado": "Tus respuestas dieron un resultado del {{}}%, para manejar números, relaciones y patrones lógicos de manera eficaz. Las personas que puntúan alto en esta escala poseen facilidad para hacer planteamientos y abordar problemas de forma abstracta. También se vincula a acciones que involucran el uso de los cálculos numéricos, estadísticas y presupuestos.",
+    "carreras": ["Actuario", "Contador Público", "Ingeniería en Innovación y Desarrollo"],
+    "preguntas": [
+      "Hacer cuentas matemáticas",
+      "Usar estadísticas",
+      "Solucionar problemas lógicos",
+      "Pensar y descomponer lógicamente un problema"
+    ]
+  },
+  {
+    "dimension": "Dimensión Espacial",
+    "numero": 3,
+    "texto_resultado": "Tus respuestas dieron un resultado del {{}}%, de apreciar con certeza la imagen visual y espacial, de representar gráficamente las ideas. Las personas que puntúan alto en esta dimensión poseen facilidad para manipular figuras, desarrollar gráficos, esquemas y productos vinculados al diseño.",
+    "carreras": ["Actuario", "Ingeniería en Innovación y Desarrollo", "Ingeniería en Transportes y Caminos"],
+    "preguntas": [
+      "Dibujar de forma precisa",
+      "Armar maquetas o modelos",
+      "Dibujar planos",
+      "Diseñar objetos"
+    ]
+  },
+  {
+    "dimension": "Dimensión Musical",
+    "numero": 4,
+    "texto_resultado": "Tus respuestas dieron un resultado del {{}}%, para el uso de instrumentos musicales y el canto como medio de expresión. Las personas que puntúan alto en esta escala se sienten atraídos por los sonidos de la naturaleza y por todo tipo de melodías; disfrutan tanto del uso de instrumentos musicales y el canto me medio de expresión. Además, tienen cierta capacidad para percibir, discriminar, transformar y expresar las diferentes formas musicales.",
+    "carreras": ["Tecnicatura Universitaria en Diseño y Animación Digital"],
+    "preguntas": [
+      "Tocar un instrumento musical",
+      "Escuchar música",
+      "Cantar",
+      "Escuchar y reconocer distintos instrumentos musicales"
+    ]
+  },
+  {
+    "dimension": "Dimensión Interpersonal",
+    "numero": 5,
+    "texto_resultado": "Tus respuestas dieron un resultado del 100%, para relacionarte y entender a los demás. Las personas que puntúan alto en esta escala tienden a evaluar adecuadamente las emociones, intenciones, y capacidades de los demás; prestando particular atención a las expresiones faciales, la voz, los gestos y posturas. También se vincula con aquellas personas que actúan según las normas establecidas; priorizan el respeto y la aceptación por los demás y tienen facilidad para liderar y gestionar conflictos.",
+    "carreras": ["Abogacía", "Escribanía", "Licenciatura en Administración de Infraestructura Tecnológica"],
+    "preguntas": [
+      "Coordinar grupos",
+      "Exponer un tema o idea en público",
+      "Defender los derechos de otras personas",
+      "Iniciar y mantener conversaciones con otras personas"
+    ]
+  },
+  {
+    "dimension": "Dimensión Intrapersonal",
+    "numero": 6,
+    "texto_resultado": "Tus respuestas dieron un resultado del {{}}%, para reconocer y reflexionar sobre tus propios estados emocionales y pensamientos. Las personas que puntuan alto en esta escala suelen tener una autoimagen acertada, son reflexivas, comprensivas y suelen ser buenos consejeros de sus pares.",
+    "carreras": [
+      "Licenciatura en Administración de Servicios de la Salud (CCC)",
+      "Licenciatura en Criminología y Seguridad.",
+      "Licenciatura en Gerontología (CCC)"
+    ],
+    "preguntas": [
+      "Reconocer estados emocionales propios",
+      "Tener autocontrol emocional",
+      "Contener emocionalmente a otras personas",
+      "Analizar tus propios pensamientos y acciones"
+    ]
+  },
+  {
+    "dimension": "Dimensión Naturalista",
+    "numero": 7,
+    "texto_resultado": "Tus respuestas dieron un resultado del {{}}%, para el entendimiento del mundo natural incluyendo plantas, animales y todo aquello que refiera a la observación científica de la naturaleza. Las personas que puntúan alto en esta escala poseen cierta capacidad para distinguir, clasificar y utilizar los elementos del medio ambiente, y poseen habilidades de observación, experimentación, reflexión y cuestionamiento del entorno.",
+    "carreras": [
+      "Licenciatura en Administración Agraria",
+      "Licenciatura en Ambiente y Energías Renovables",
+      "Licenciatura en Gestión Ambiental"
+    ],
+    "preguntas": [
+      "Estar en contacto con la naturaleza",
+      "Analizar materia orgánica",
+      "Estudiar temas vinculados a la biología y el cuerpo humano",
+      "Analizar fenómenos naturales"
+    ]
+  },
+  {
+    "dimension": "Dimensión Kinestésico-Corporal",
+    "numero": 8,
+    "texto_resultado": "Tus respuestas dieron un resultado del {{}}%, para utilizar el cuerpo como medio de expresión y aprendizaje. Las personas que puntúan alto en esta dimensión tienen facilidad para desarrollar actividades físicas, prácticas o manuales, y disfrutan del movimiento, la acción y la exploración del entorno. También se vincula con la coordinación motriz, la manipulación de objetos, el uso de herramientas y la expresión a través del cuerpo.",
+    "carreras": [
+      "Licenciatura en Higiene y Seguridad Laboral",
+      "Licenciatura en Terapia Ocupacional y Desarrollo Humano",
+      "Tecnicatura en Enfería"
+    ],
+    "preguntas": [
+      "Hacer ejercicio físico",
+      "Hacer movimientos que requieren equilibrio",
+      "Manejar objetos de forma precisa",
+      "Manipular objetos con coordinación"
+    ]
+  }
+]

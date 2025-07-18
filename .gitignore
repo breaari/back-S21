@@ -1,0 +1,7 @@
+.env
+
+/node_modules
+
+package-lock.json
+
+/src/TestVocacional/google-credentials.json

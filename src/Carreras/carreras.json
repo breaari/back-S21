@@ -1,0 +1,481 @@
+{
+  "Carreras": [
+    {
+      "name": "Lic. en Psicología",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/Psicolog%C3%ADa.pdf",
+      "type": "grado",
+      "mode": "presencial"
+    },
+    {
+      "name": "Lic. en Fonoaudiología",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/licenciatura-en-fonoaudiologia.pdf",
+      "type": "grado",
+      "mode": "presencial"
+    },
+    {
+      "name": "Lic. en Nutrición",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/lic-nutricion.pdf",
+      "type": "grado",
+      "mode": "presencial"
+    },
+    {
+      "name": "Tec. en Enfermería",
+      "url": "https://universidadsiglo21online.com/Descargas/pregrado/Tec-en-enfermeria.pdf",
+      "type": "pregrado",
+      "mode": "presencial"
+    },
+    {
+      "name": "Ing. en Innovación y Desarrollo",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/ing-innovacion-y-desarrollo.pdf",
+      "type": "grado",
+      "mode": "presencial"
+    },
+    {
+      "name": "Lic. en Diseño Gráfico.",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/lic-diseno-grafico.pdf",
+      "type": "grado",
+      "mode": "presencial"
+    },
+    {
+      "name": "Abogacía",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/Abogacia.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Contador Público",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/Contador-publico.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Escribanía",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/escribania.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Actuario",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/Actuario.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Administración",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/lic-administracion.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Ambiente y Energías Renovables",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/lic-ambiente-y-energias-renovables.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Ciencias de Datos",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/Lic%20-ciencia_datos.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Terapia Ocupacional y Desarrollo Humano",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/Lic%20terapia-ocupacional-y-desarrollo-humano.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name":  "Lic. en Antropología Organizacional",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/Lic%20-antropologia-organizacional.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Seguridad Informática",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/Lic%20seguridad-informatica.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Ciencia Política y Gobierno",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/Lic%20ciencias%20politicas%20y%20gobierno.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Administración de Servicios de Salud (CCC)",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/licenciatura-en-administracion-en-servicios-de-salud-siglo-21-1.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Finanzas",
+      "url": "#",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Bioinformática",
+      "url": "#",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Administración Agraria",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/lic-administracion-agraria.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Administración de Infraestructura Tecnológica",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/Lic%20-admin-de-infraestructura-tecnologica.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Administración Hotelera",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/lic-administracion-hotelera.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Administración Pública",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/lic-administracion-publica.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Comercialización (Marketing)",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/lic-comercializacion.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Comercio Internacional",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/lic-comercio-internacional.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Criminología y Seguridad",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/lic-criminologia-y-seguridad.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Diseño y Animación Digital",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/lic-diseno-y-animacion-digital.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Educación (CCC)",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/lic-educacion.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Educación y Nuevas Tecnologías",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/lic.en-educacion-y-nuevas-tecnologias.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Emprendimiento (CCC)",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/Lic%20-emprendimiento%20CCC.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Gerontología",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/Lic%20-gerontologia.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Gestión Ambiental",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/lic-gestion-ambiental.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Gestión de Recursos Humanos",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/lic-gestion-rrhh.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Gestión Turística",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/lic-gestion-turistica.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Higiene, Seguridad y Medio Ambiente del Trabajo",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/lic-higiene-y-seguridad.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Informática",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/Lic%20informatica.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Inteligencia Artificial y Robótica",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/Lic-inteligencia-artificial-y-robotica-.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Matemática",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/Lic.%20en%20Matematicas.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Logística Global",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/Licenciatura%20en%20Logistica%20Global.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Periodismo",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/lic-periodismo.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Publicidad",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/lic-publicidad.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Relaciones Internacionales",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/lic-relaciones-internacionales.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Relaciones Públicas e Institucionales",
+      "url": "https://universidadsiglo21online.com/Descargas/grado/lic-relaciones-publicas.pdf",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Especialización en Cibercrimen",
+      "url": "https://universidadsiglo21online.com/Descargas/posgrado/especializacion%20en%20cibercrimen_virtual.pdf",
+      "type": "posgrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Esp. en Derecho de Familia, Niñez y Adolescencia",
+      "url": "https://universidadsiglo21online.com/Descargas/posgrado/Especializacion%20familia_ninez_adolescencia_virtual.pdf",
+      "type": "posgrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Esp. en Finanzas Corporativas y Mercado de Capitales",
+      "url": "https://universidadsiglo21online.com/Descargas/posgrado/esp-en-finanzas-corporativas-y-mercado-de-capitales.pdf",
+      "type": "posgrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Esp. en Gestión y Gobierno de Empresas Familiares",
+      "url": "https://universidadsiglo21online.com/Descargas/posgrado/Especializacion%20gestion-y-gobierno-de-empresas-familiares_1503.pdf",
+      "type": "posgrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Especialización en Marketing y Dirección Comercial",
+      "url": "https://universidadsiglo21online.com/Descargas/posgrado/Especializacion%20mkt_direccion_comercial_virtual.pdf",
+      "type": "posgrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Especialización en Negocios Internacionales",
+      "url": "https://universidadsiglo21online.com/Descargas/posgrado/Especializacion%20en%20negocios-internacionales_virtual.pdf",
+      "type": "posgrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Maestría en Administración de Empresas",
+      "url": "",
+      "type": "posgrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Maestría en Derecho Internacional",
+      "url": "https://universidadsiglo21online.com/Descargas/posgrado/maestria-en-derecho-internacional-siglo-21.pdf",
+      "type": "posgrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Maestría en Innovación Educativa",
+      "url": "https://universidadsiglo21online.com/Descargas/posgrado/maestria-en-innovacion-educativa-2.pdf",
+      "type": "posgrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Maestría en Adm. de Neg. y Ap. Tec. en la Empresa",
+      "url": "https://universidadsiglo21online.com/Descargas/posgrado/maestria-en-administracion-de-negocios-y-aplicaciones-tecnologicas-en-la-empresa-siglo-21.pdf",
+      "type": "posgrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Maestría en Derecho Procesal",
+      "url": "https://universidadsiglo21online.com/Descargas/posgrado/maestria-en-derecho-procesal-siglo-21.pdf",
+      "type": "posgrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Martillero, Corredor Público y Corredor Inmobiliario",
+      "url": "https://universidadsiglo21online.com/Descargas/pregrado/martillero-y-corredor-publico-e-inmobiliario.pdf",
+      "type": "pregrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Procurador",
+      "url": "https://universidadsiglo21online.com/Descargas/pregrado/procurador.pdf",
+      "type": "pregrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Tec. en Administración y Gestión Tributaria",
+      "url": "https://universidadsiglo21online.com/Descargas/pregrado/tec-administracion-y-gestion-tributaria.pdf",
+      "type": "pregrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Tec. en Dir. de Protocolo, Org. de Eventos y RRPP",
+      "url": "https://universidadsiglo21online.com/Descargas/pregrado/tec-direccion-de-protocolo-org-de-eventos-y-rrpp.pdf",
+      "type": "pregrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Tec. en Dirección equipos de venta",
+      "url": "https://universidadsiglo21online.com/Descargas/pregrado/tec-direccion-de-equipos-de-venta.pdf",
+      "type": "pregrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Tec. en Diseño y Animación Digital",
+      "url": "https://universidadsiglo21online.com/Descargas/pregrado/tec-diseno-y-animacion-digital.pdf",
+      "type": "pregrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Tec. en Gestión de Empresas Familiares",
+      "url": "https://universidadsiglo21online.com/Descargas/pregrado/tec-gestion-de-empresas-familiares.pdf",
+      "type": "pregrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Tec. en Gestión de Moda",
+      "url": "https://universidadsiglo21online.com/Descargas/pregrado/tec-gestion-de-moda.pdf",
+      "type": "pregrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Tec. En Hidrocarburos Y Geociencia",
+      "url": "https://universidadsiglo21online.com/Descargas/pregrado/Tec%20-hidrocarburos-y-geociencia.pdf",
+      "type": "pregrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Tec. en Higiene y Seguridad Laboral",
+      "url": "https://universidadsiglo21online.com/Descargas/pregrado/tec-higiene-y-seguridad-laboral.pdf",
+      "type": "pregrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Tec. en Relaciones Laborales",
+      "url": "https://universidadsiglo21online.com/Descargas/pregrado/tec-relaciones-laborales.pdf",
+      "type": "pregrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Tec. en Responsabilidad y Gestión Social",
+      "url": "https://universidadsiglo21online.com/Descargas/pregrado/tec-responsabilidad-y-gestion-social.pdf",
+      "type": "pregrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Tec. en Administración y Gestión de Políticas Públicas",
+      "url": "https://universidadsiglo21online.com/Descargas/pregrado/tec-administracion-publica.pdf",
+      "type": "pregrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Tec. en Investigación de la Escena del Crimen",
+      "url": "https://universidadsiglo21online.com/Descargas/pregrado/tec-investigacion-de-la-escena-del-crimen.pdf",
+      "type": "pregrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Tec. en Marketing y Publicidad Digital",
+      "url": "https://universidadsiglo21online.com/Descargas/pregrado/tec-marketing-y-publicidad-digital.pdf",
+      "type": "pregrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Tec. en Gestión de Recursos Turísticos",
+      "url": "https://universidadsiglo21online.com/Descargas/pregrado/tec-gestion-de-recursos-turisticos.pdf",
+      "type": "pregrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Tec. en Gestión y Auditorías Ambientales",
+      "url": "https://universidadsiglo21online.com/Descargas/pregrado/tec-universitaria-en-gestion-y-auditorias-ambientales.pdf",
+      "type": "pregrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Tec. en Gestión Contable e Impositiva",
+      "url": "#",
+      "type": "pregrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Tec. en Gestión del Clima Laboral en la Organización",
+      "url": "https://universidadsiglo21online.com/Descargas/pregrado/tec-gestion-del-clima-laboral.pdf",
+      "type": "pregrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Tec. en Promoción Comunitaria en Niñez y Adolesc.",
+      "url": "https://universidadsiglo21online.com/Descargas/pregrado/tec-universitaria-promocion-comunitaria-en-ninez-y-adolescencia.pdf",
+      "type": "pregrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Tec. en Gestión Administrativa de Servicios de Salud",
+      "url": "https://universidadsiglo21online.com/Descargas/pregrado/tec-universitaria-gestion-administrativa-de-servicios-de-salud.pdf",
+      "type": "pregrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Tec. en Redes Informáticas y Telecomunicaciones",
+      "url": "https://universidadsiglo21online.com/Descargas/pregrado/Tec%20redes%20informaticas%20y%20telecomunicaciones.pdf",
+      "type": "pregrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Tec. en Adm. de la Prop. Horizontal y Conjuntos Inmob.",
+      "url": "#",
+      "type": "pregrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Tec. en Diseño y Desarrollo de Videojuegos",
+      "url": "#",
+      "type": "pregrado",
+      "mode": "distancia"
+    }
+
+  ]
+}
+
+
