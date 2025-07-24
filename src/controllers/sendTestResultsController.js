@@ -53,6 +53,7 @@ function calcularPromedio(arr) {
 
 const sendTestResultsController = async (input) => {
   const { nombre, apellido, correo, respuestas } = input;
+  console.log("input:", input)
 
   if (!nombre || !correo || !respuestas || typeof respuestas !== "object") {
     console.log("Faltan datos para enviar resultados del test", input);
@@ -86,7 +87,7 @@ const sendTestResultsController = async (input) => {
       subject: "Resultados de tu test vocacional UES21",
       html: htmlBody,
     };
-
+    console.log("mail options:", mailOptions)
     await transport.sendMail(mailOptions);
 
     // 1. Ordenar de mayor a menor por porcentaje
