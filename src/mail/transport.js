@@ -26,7 +26,8 @@ const transport = nodemailer.createTransport({
     user: "infocarreras@universidadsiglo21online.com",
     pass: "Pulsion21*"
   },
-  debug: true
+  debug: true,
+  logger: true,
 });
 
 module.exports = transport;

@@ -91,6 +91,7 @@ const sendTestResultsController = async (input) => {
     };
     console.log("mail options:", mailOptions)
     await transport.sendMail(mailOptions);
+    console.log("Resultado del envío:", result);
 
     // 1. Ordenar de mayor a menor por porcentaje
 const resultadosOrdenados = [...resultados].sort((a, b) => b.porcentaje - a.porcentaje);
@@ -114,7 +115,7 @@ await guardarEnGoogleSheet({
 
     return true;
   } catch (error) {
-    console.log("Error en sendTestResultsController:", error.message);
+    console.log("Error en sendTestResultsController:", error);
     return false;
   }
 };
