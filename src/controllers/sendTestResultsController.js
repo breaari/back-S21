@@ -2,26 +2,25 @@ const dimensiones = require("../TestVocacional/data.json");
 const transport = require("../mail/transport");
 const sendTestResultsBody = require("../mail/sendTestResultsBody");
 const { SMTP_USER } = process.env;
-const { google } = require('googleapis');
-const path = require('path');
-const fs = require('fs');
+const { google } = require("googleapis");
+const path = require("path");
+const fs = require("fs");
 require("dotenv").config();
-
 
 // Ruta al archivo JSON de la cuenta de servicio
 const auth = new google.auth.GoogleAuth({
-  keyFile: path.join(__dirname, '../TestVocacional/google-credentials.json'), // ⚠️ Cambiá según tu ruta
-  scopes: ['https://www.googleapis.com/auth/spreadsheets'],
+  keyFile: path.join(__dirname, "../TestVocacional/google-credentials.json"), // ⚠️ Cambiá según tu ruta
+  scopes: ["https://www.googleapis.com/auth/spreadsheets"],
 });
 
 // ID de la hoja de cálculo (lo sacás de la URL de tu Google Sheet)
-const SHEET_ID = '1lLI7cGdeefpdu7-0YmxDrx-SN-lQjdyEL4immNtOnx8';
+const SHEET_ID = "1lLI7cGdeefpdu7-0YmxDrx-SN-lQjdyEL4immNtOnx8";
 
 async function guardarEnGoogleSheet(data) {
   const client = await auth.getClient();
-  const sheets = google.sheets({ version: 'v4', auth: client });
+  const sheets = google.sheets({ version: "v4", auth: client });
 
-  const fecha = new Date().toLocaleString('es-AR');
+  const fecha = new Date().toLocaleString("es-AR");
 
   const valores = [
     [
@@ -37,14 +36,13 @@ async function guardarEnGoogleSheet(data) {
 
   await sheets.spreadsheets.values.append({
     spreadsheetId: SHEET_ID,
-    range: 'A1', // Asume que empieza desde la A1
-    valueInputOption: 'USER_ENTERED',
+    range: "A1", // Asume que empieza desde la A1
+    valueInputOption: "USER_ENTERED",
     resource: {
       values: valores,
     },
   });
 }
-
 
 function calcularPromedio(arr) {
   const validNumbers = arr.filter((n) => typeof n === "number" && !isNaN(n));
@@ -55,7 +53,7 @@ function calcularPromedio(arr) {
 
 const sendTestResultsController = async (input) => {
   const { nombre, apellido, correo, respuestas } = input;
-  console.log("input:", input)
+  console.log("input:", input);
 
   if (!nombre || !correo || !respuestas || typeof respuestas !== "object") {
     console.log("Faltan datos para enviar resultados del test", input);
@@ -67,19 +65,18 @@ const sendTestResultsController = async (input) => {
     const resultados = [];
 
     for (const dim of dimensiones) {
-        const respuestasDim = respuestas[dim.dimension] || [];
-        const porcentaje = calcularPromedio(respuestasDim);
-      
-        const textoFinal = dim.texto_resultado.replace("{{}}", porcentaje);
-      
-        resultados.push({
-          dimension: dim.dimension,
-          porcentaje,
-          texto: textoFinal,
-          carreras: dim.carreras,
-        });
-      }
-      
+      const respuestasDim = respuestas[dim.dimension] || [];
+      const porcentaje = calcularPromedio(respuestasDim);
+
+      const textoFinal = dim.texto_resultado.replace("{{}}", porcentaje);
+
+      resultados.push({
+        dimension: dim.dimension,
+        porcentaje,
+        texto: textoFinal,
+        carreras: dim.carreras,
+      });
+    }
 
     const htmlBody = sendTestResultsBody(nombre, apellido, resultados);
 
@@ -89,29 +86,31 @@ const sendTestResultsController = async (input) => {
       subject: "Resultados de tu test vocacional UES21",
       html: htmlBody,
     };
-    console.log("mail options:", mailOptions)
-    await transport.sendMail(mailOptions);
+    console.log("mail options:", mailOptions);
+    const result = await transport.sendMail(mailOptions);
     console.log("Resultado del envío:", result);
 
     // 1. Ordenar de mayor a menor por porcentaje
-const resultadosOrdenados = [...resultados].sort((a, b) => b.porcentaje - a.porcentaje);
+    const resultadosOrdenados = [...resultados].sort(
+      (a, b) => b.porcentaje - a.porcentaje
+    );
 
-// 2. Tomar el resultado con mayor porcentaje
-const dimensionPrincipal = resultadosOrdenados[0];
+    // 2. Tomar el resultado con mayor porcentaje
+    const dimensionPrincipal = resultadosOrdenados[0];
 
-// 3. Obtener la primera carrera (si existe)
-const carreraSugerida = dimensionPrincipal.carreras?.[0] || "Sin carrera sugerida";
+    // 3. Obtener la primera carrera (si existe)
+    const carreraSugerida =
+      dimensionPrincipal.carreras?.[0] || "Sin carrera sugerida";
 
-// 4. Guardar en la hoja de cálculo
-await guardarEnGoogleSheet({
-  nombre,
-  apellido,
-  correo,
-  telefono: input.telefono,
-  localidad: input.localidad,
-  resultados: carreraSugerida,
-});
-
+    // 4. Guardar en la hoja de cálculo
+    await guardarEnGoogleSheet({
+      nombre,
+      apellido,
+      correo,
+      telefono: input.telefono,
+      localidad: input.localidad,
+      resultados: carreraSugerida,
+    });
 
     return true;
   } catch (error) {
