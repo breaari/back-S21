@@ -5,6 +5,8 @@ const { SMTP_USER } = process.env;
 const { google } = require('googleapis');
 const path = require('path');
 const fs = require('fs');
+require("dotenv").config();
+
 
 // Ruta al archivo JSON de la cuenta de servicio
 const auth = new google.auth.GoogleAuth({
