@@ -84,7 +84,7 @@ const sendTestResultsController = async (input) => {
     const htmlBody = sendTestResultsBody(nombre, apellido, resultados);
 
     const mailOptions = {
-      from: SMTP_USER,
+      from: "infocarreras@universidadsiglo21online.com",
       to: correo,
       subject: "Resultados de tu test vocacional UES21",
       html: htmlBody,
