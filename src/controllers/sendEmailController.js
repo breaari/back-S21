@@ -37,7 +37,7 @@ const emailController = async (input) => {
     // Enviar correo
     const body = await sendEmailBody(program, name, lastName);
     const emailOptions = {
-      from: SMTP_USER,
+      from: "infocarreras@universidadsiglo21online.com",
       to: email,
       subject: program,
       html: body,
@@ -47,8 +47,8 @@ const emailController = async (input) => {
     // Recibir consulta
     const queryBody = await receiveQueriesBody(type, program, equivalency, modality, name, lastName, whatsapp, branch);
     const queryOptions = {
-      from: SMTP_USER,
-      to: SMTP_USER,
+      from: "infocarreras@universidadsiglo21online.com",
+      to: "infocarreras@universidadsiglo21online.com",
       subject: "Nueva consulta",
       html: queryBody,
   
