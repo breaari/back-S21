@@ -1,10 +1,9 @@
-
 const fs = require('fs');
 const path = require('path');
 
 const jsonPath = path.join(__dirname, '../Carreras/carreras.json');
 
-const receiveQueriesBody = async (type, program, equivalency, modality, name, lastName, whatsapp, branch) => {
+const receiveQueriesBody = async (type, program, equivalency, modality, name, lastName, whatsapp, branch, email) => {
 
   console.log("ohla estoy funcionando")
   try {
@@ -20,6 +19,7 @@ const receiveQueriesBody = async (type, program, equivalency, modality, name, la
       <p>Equivalencias: ${hasEquivalencies}</p>
       <p>Modalidad: ${modality}</p>
       <p>WhatsApp: ${whatsapp}</p>
+      <p>Email: ${email}</p>
       <p>Localidad: ${branch}</p>
       <h2>¡Saludos!</h2>
     `;

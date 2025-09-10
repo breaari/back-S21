@@ -45,7 +45,7 @@ const emailController = async (input) => {
     };
   
     // Recibir consulta
-    const queryBody = await receiveQueriesBody(type, program, equivalency, modality, name, lastName, whatsapp, branch);
+    const queryBody = await receiveQueriesBody(type, program, equivalency, modality, name, lastName, whatsapp, branch, email);
     const queryOptions = {
       from: "infocarreras@universidadsiglo21online.com",
       to: "infocarreras@universidadsiglo21online.com",
