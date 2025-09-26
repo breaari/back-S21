@@ -67,6 +67,18 @@
       "mode": "distancia"
     },
     {
+      "name": "Lic. en Agroinformática",
+      "url": "",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Lic. en Psicopedagogía (CCC)",
+      "url": "",
+      "type": "grado",
+      "mode": "distancia"
+    },
+    {
       "name": "Lic. en Ambiente y Energías Renovables",
       "url": "https://universidadsiglo21online.com/Descargas/grado/lic-ambiente-y-energias-renovables.pdf",
       "type": "grado",
@@ -265,6 +277,18 @@
       "mode": "distancia"
     },
     {
+      "name": "Especialización en Políticas Públicas de Seguridad y Criminológicas",
+      "url": "",
+      "type": "posgrado",
+      "mode": "distancia"
+    },
+        {
+      "name": "Especialización en Gestión de Energias Renovables",
+      "url": "",
+      "type": "posgrado",
+      "mode": "distancia"
+    },
+    {
       "name": "Especialización en Cibercrimen",
       "url": "https://universidadsiglo21online.com/Descargas/posgrado/especializacion%20en%20cibercrimen_virtual.pdf",
       "type": "posgrado",
@@ -339,6 +363,12 @@
     {
       "name": "Procurador",
       "url": "https://universidadsiglo21online.com/Descargas/pregrado/procurador.pdf",
+      "type": "pregrado",
+      "mode": "distancia"
+    },
+    {
+      "name": "Tec. en Negocios Agroecológicos",
+      "url": "",
       "type": "pregrado",
       "mode": "distancia"
     },
