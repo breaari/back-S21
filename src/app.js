@@ -5,6 +5,12 @@ const morgan = require('morgan');
 const routes = require('./routes/index.js');
 const server = express();
 const cors = require('cors')
+const path = require('path');
+
+server.use(
+  '/assets',
+  express.static(path.join(__dirname, 'assets'))
+);
 
 server.use(bodyParser.json());
 server.use(morgan("dev"));
