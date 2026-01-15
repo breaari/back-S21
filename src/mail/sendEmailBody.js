@@ -52,13 +52,11 @@
 //     return body;
 //   } catch (error) {
 //     console.error('Error al generar el cuerpo del correo:', error);
-    
+
 //   }
 // };
 
 // module.exports = sendEmailBody;
-
-
 
 // const fs = require('fs');
 // const path = require('path');
@@ -176,22 +174,21 @@
 
 // module.exports = sendEmailBody;
 
+const fs = require("fs");
+const path = require("path");
 
-const fs = require('fs');
-const path = require('path');
-
-const jsonPath = path.join(__dirname, '../Carreras/carreras.json');
+const jsonPath = path.join(__dirname, "../Carreras/carreras.json");
 
 const sendEmailBody = async (program, name, lastName) => {
   try {
     const rawdata = fs.readFileSync(jsonPath);
     const carreras = JSON.parse(rawdata);
 
-    const carrera = carreras.Carreras.find(c => c.name === program);
+    const carrera = carreras.Carreras.find((c) => c.name === program);
 
     if (!carrera) {
       console.log(`No se encontró información para la carrera '${program}'`);
-      return '';
+      return "";
     }
 
     const { url } = carrera;
@@ -233,9 +230,9 @@ const sendEmailBody = async (program, name, lastName) => {
           </h2>
 
           <ul style="padding-left:20px; margin:0;">
-            <li>Universidad privada <strong>más elegida de Argentina</strong>.</li>
-            <li>Tecnología educativa aplicada al aprendizaje.</li>
-            <li>Acompañamiento académico permanente.</li>
+            <li>Es la Universidad privada <strong>más elegida de Argentina</strong>.</li>
+            <li>Ofrece tecnología educativa aplicada al aprendizaje.</li>
+            <li>Cuenta con acompañamiento académico permanente.</li>
             <li>Prácticas profesionales y convenios institucionales.</li>
             <li>Reconocimiento de equivalencias.</li>
             <li>Beneficios arancelarios por rendimiento académico.</li>
@@ -244,8 +241,7 @@ const sendEmailBody = async (program, name, lastName) => {
           </ul>
 
           <p style="margin-top:20px;">
-            👉 Conocé el <strong>plan de estudios, perfil profesional y salida laboral</strong>
-            ingresando
+            👉 Conocé el <strong>tu futura carrera:</strong> plan de estudios, perfil profesional y salida laboral ingresando
             <a href="${url}" target="_blank" style="color:#2A9D8F; font-weight:bold;">
               aquí
             </a>.
@@ -257,8 +253,8 @@ const sendEmailBody = async (program, name, lastName) => {
             Modalidades de cursado
           </h2>
 
-          <p><strong>Educación Distribuida:</strong> online + instancia semanal presencial.</p>
-          <p><strong>Educación Distribuida Home:</strong> 100% online.</p>
+          <p><strong>Educación Distribuida:</strong> Lo mejor de los dos mundos! Vas a contar con la flexibilidad de la cursada online + 1 encuentro semanal presencial en tu CAU, para enriquecer tu proceso de aprendizaje junto a tus compañeros y un tutor dinamizador que les brindara guía y apoyo.</p>
+          <p><strong>Educación Distribuida Home:</strong>100% online, flexible y adaptable a tus horarios! La única Universidad que te permite elegir en que día y horario rendir tus examenes!</p>
           <p><strong>Presencial Distribuida (Mar del Plata):</strong> cursado presencial con tecnología de última generación y prácticas locales.</p>
 
           <!-- CTA WhatsApp -->
@@ -291,10 +287,9 @@ const sendEmailBody = async (program, name, lastName) => {
     `;
 
     return body;
-
   } catch (error) {
-    console.error('Error al generar el cuerpo del correo:', error);
-    return '';
+    console.error("Error al generar el cuerpo del correo:", error);
+    return "";
   }
 };
 module.exports = sendEmailBody;
