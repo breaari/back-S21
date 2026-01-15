@@ -241,7 +241,7 @@ const sendEmailBody = async (program, name, lastName) => {
           </ul>
 
           <p style="margin-top:20px;">
-            👉 Conocé el <strong>tu futura carrera:</strong> plan de estudios, perfil profesional y salida laboral ingresando
+            👉 Conocé <strong>tu futura carrera:</strong> plan de estudios, perfil profesional y salida laboral ingresando
             <a href="${url}" target="_blank" style="color:#2A9D8F; font-weight:bold;">
               aquí
             </a>.
