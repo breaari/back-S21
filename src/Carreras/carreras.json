@@ -1,18 +1,6 @@
 {
   "Carreras": [
     {
-      "name": "Lic. en Psicología",
-      "url": "https://universidadsiglo21online.com/Descargas/grado/Psicolog%C3%ADa.pdf",
-      "type": "grado",
-      "mode": "presencial"
-    },
-    {
-      "name": "Lic. en Nutrición",
-      "url": "https://universidadsiglo21online.com/Descargas/grado/lic-nutricion.pdf",
-      "type": "grado",
-      "mode": "presencial"
-    },
-    {
       "name": "Abogacía",
       "url": "https://universidadsiglo21online.com/Descargas/grado/Abogacia.pdf",
       "type": "grado",
