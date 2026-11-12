@@ -251,8 +251,8 @@ const sendEmailBody = async (program, name, lastName) => {
 
           <p>
             Gracias por tu interés en la <strong>Universidad Siglo 21</strong>.
-            Elegir una carrera es pensar en lo que sigue, y queremos acompañarte
-            en ese camino con nuestra <strong>oferta educativa 2027</strong>.
+            Queremos acompañarte a potenciar tu futuro profesional
+            con nuestra <strong>oferta educativa 2027</strong>.
           </p>
 
        <hr style="border:none;border-top:1px solid #e0e0e0; margin:24px 0;" />
