@@ -39,7 +39,7 @@ const emailController = async (input) => {
     const emailOptions = {
       from: "infocarreras@universidadsiglo21online.com",
       to: email,
-      subject: program,
+      subject: `${program} | Oferta educativa 2027`,
       html: body,
 
     };
