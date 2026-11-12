@@ -179,6 +179,37 @@ const path = require("path");
 
 const jsonPath = path.join(__dirname, "../Carreras/carreras.json");
 
+// Prioriza la imagen de campaña 2027 ya alojada en src/assets.
+// Si se reemplazó el archivo conservando su nombre anterior, también la detecta.
+// CAMPAIGN_EMAIL_IMAGE permite indicar el nombre exacto sin editar la plantilla.
+const getCampaignImageUrl = () => {
+  const assetsDir = path.join(__dirname, "../assets");
+  const configured = process.env.CAMPAIGN_EMAIL_IMAGE;
+  const files = fs.existsSync(assetsDir) ? fs.readdirSync(assetsDir) : [];
+  const images = files.filter((file) =>
+    /\.(png|jpe?g|webp|gif)$/i.test(file)
+  );
+
+  let filename = configured && images.includes(configured) ? configured : null;
+
+  if (!filename) {
+    const candidates = images
+      .filter((file) => /2027|campa(?:ñ|n)a|portada|header/i.test(file))
+      .map((file) => ({
+        file,
+        score: /2027/.test(file) ? 2 : 1,
+        modified: fs.statSync(path.join(assetsDir, file)).mtimeMs,
+      }))
+      .sort((a, b) => b.score - a.score || b.modified - a.modified);
+
+    filename = candidates[0]?.file;
+  }
+
+  // Mantiene compatibilidad si la nueva imagen aún no está disponible.
+  filename ||= "PORTADA - CAMPAÑA 2026_LINKEDIN.jpeg";
+  return `https://back.universidadsiglo21online.com/assets/${encodeURIComponent(filename)}`;
+};
+
 const sendEmailBody = async (program, name, lastName) => {
   try {
     const rawdata = fs.readFileSync(jsonPath);
@@ -192,6 +223,7 @@ const sendEmailBody = async (program, name, lastName) => {
     }
 
     const { url } = carrera;
+    const campaignImageUrl = getCampaignImageUrl();
 
     const body = `
     <div style="font-family: Arial, sans-serif; background-color:#f4f6f8; padding:30px;">
@@ -199,33 +231,33 @@ const sendEmailBody = async (program, name, lastName) => {
 
         <!-- Imagen campaña -->
         <img 
-          src="https://back.universidadsiglo21online.com/assets/PORTADA%20-%20CAMPAÑA%202026_LINKEDIN.jpeg"
-          alt="Es más que estudiar, es lo que sigue"
+          src="${campaignImageUrl}"
+          alt="Universidad Siglo 21 - Potenciando Nuevos Liderazgos"
           style="width:100%; display:block; border:0;"
         />
 
         <!-- Header -->
-        <div style="background-color:#2A9D8F; padding:22px; text-align:center;">
+        <div style="background-color:#006C5B; padding:22px; text-align:center;">
           <h1 style="color:#ffffff; margin:0; font-size:22px;">
-            ${program} · Ingreso 2026
+            ${program} · Ingreso 2027
           </h1>
         </div>
 
         <!-- Contenido -->
         <div style="padding:30px;">
-          <p style="font-size:18px; font-weight:bold; color:#2A9D8F;">
+          <p style="font-size:18px; font-weight:bold; color:#009681;">
             ¡Hola ${name} ${lastName}!
           </p>
 
           <p>
             Gracias por tu interés en la <strong>Universidad Siglo 21</strong>.
             Elegir una carrera es pensar en lo que sigue, y queremos acompañarte
-            en ese camino con nuestra <strong>oferta académica 2026</strong>.
+            en ese camino con nuestra <strong>oferta educativa 2027</strong>.
           </p>
 
        <hr style="border:none;border-top:1px solid #e0e0e0; margin:24px 0;" />
 
-          <h2 style="color:#2A9D8F; font-size:18px; margin-bottom:10px;">
+          <h2 style="color:#009681; font-size:18px; margin-bottom:10px;">
             ¿Por qué elegir Universidad Siglo 21?
           </h2>
 
@@ -242,14 +274,14 @@ const sendEmailBody = async (program, name, lastName) => {
 
           <p style="margin-top:20px;">
             👉 Conocé <strong>tu futura carrera:</strong> plan de estudios, perfil profesional y salida laboral ingresando
-            <a href="${url}" target="_blank" style="color:#2A9D8F; font-weight:bold;">
+            <a href="${url}" target="_blank" style="color:#009681; font-weight:bold;">
               aquí
             </a>.
           </p>
 
           <hr style="border:none;border-top:1px solid #e0e0e0; margin:24px 0;" />
 
-          <h2 style="color:#2A9D8F; font-size:18px; margin-bottom:10px;">
+          <h2 style="color:#009681; font-size:18px; margin-bottom:10px;">
             Modalidades de cursado
           </h2>
 
@@ -274,10 +306,10 @@ const sendEmailBody = async (program, name, lastName) => {
         <!-- Footer -->
         <div style="background-color:#f1f1f1; padding:20px; text-align:center; font-size:14px; color:#666;">
           Universidad Siglo 21<br/>
-          <a href="https://www.instagram.com/lasiglo21.mdp" style="color:#2A9D8F; text-decoration:none;">
+          <a href="https://www.instagram.com/lasiglo21.mdp" style="color:#009681; text-decoration:none;">
             @lasiglo21.mdp
           </a> |
-          <a href="https://universidadsiglo21online.com" style="color:#2A9D8F; text-decoration:none;">
+          <a href="https://universidadsiglo21online.com" style="color:#009681; text-decoration:none;">
             universidadsiglo21online.com
           </a>
         </div>
